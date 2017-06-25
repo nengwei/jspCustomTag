@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>是否执行标签体内容</title>
+<title>是否执行标签结束后内容</title>
 </head>
 <body>
-	<!-- http://localhost:8081/jspCustomTag/demo1.jsp?name=weineng -->
-	<custom:skipBodyOrEvalBodyIncludeTag>
-		<h3>中国</h3>
-	</custom:skipBodyOrEvalBodyIncludeTag>
+	<a href="demo2(1).jsp" target="blank_">demo2(1).jsp</a>
 </body>
 </html>

@@ -5,8 +5,9 @@ import javax.servlet.jsp.tagext.TagSupport;
 /**
  * 是否执行标签体内容
  * @author weineng
- *
+ *http://localhost:8081/jspCustomTag/demo1.jsp?name=weineng
  */
+@SuppressWarnings("serial")
 public class SkipBodyOrEvalBodyIncludeTag extends TagSupport {
 
 	@Override

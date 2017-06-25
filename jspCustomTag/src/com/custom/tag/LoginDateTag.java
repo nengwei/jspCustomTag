@@ -13,6 +13,7 @@ import javax.servlet.jsp.tagext.TagSupport;
  * @author weineng
  *
  */
+@SuppressWarnings("serial")
 public class LoginDateTag extends TagSupport {
 
 	public int doStartTag() throws JspException {

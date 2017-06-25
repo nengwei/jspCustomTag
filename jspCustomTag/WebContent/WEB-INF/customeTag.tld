@@ -16,4 +16,9 @@
 		<tag-class>com.custom.tag.SkipBodyOrEvalBodyIncludeTag</tag-class>
 		<body-content>scriptless</body-content>
 	</tag>
+	<tag>
+		<name>skipBodyOrEvalPage</name>
+		<tag-class>com.custom.tag.SkipPageOrEvalPageTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
 </taglib>
