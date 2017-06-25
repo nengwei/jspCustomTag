@@ -11,4 +11,9 @@
 		<tag-class>com.custom.tag.LoginDateTag</tag-class>
 		<body-content>empty</body-content>
 	</tag>
+	<tag>
+		<name>skipBodyOrEvalBodyIncludeTag</name>
+		<tag-class>com.custom.tag.SkipBodyOrEvalBodyIncludeTag</tag-class>
+		<body-content>scriptless</body-content>
+	</tag>
 </taglib>
