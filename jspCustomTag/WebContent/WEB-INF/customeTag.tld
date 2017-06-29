@@ -21,4 +21,29 @@
 		<tag-class>com.custom.tag.SkipPageOrEvalPageTag</tag-class>
 		<body-content>empty</body-content>
 	</tag>
+	<tag>
+		<name>dbConnection</name>
+		<tag-class>com.custom.tag.DBConnectionTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>driver</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>url</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>username</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>password</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>sql</name>
+			<required>true</required>
+		</attribute>
+	</tag>
 </taglib>
